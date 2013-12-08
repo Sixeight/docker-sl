@@ -1,4 +1,7 @@
-
+# Convenient sl environment
+#
+# VERSION               0.1
+AUTHOR Nishimura Tomohiro
 
 FROM ubuntu:12.04
 
