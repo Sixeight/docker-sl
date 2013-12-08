@@ -9,4 +9,5 @@ $ docker build -t sixeight/sl .
 ```
 
 ## Author
-Tomohiro Nishimura (@Sixeight)
+Nishimura Tomohiro (a.k.a @Sixeight)
+
