@@ -1,6 +1,6 @@
 
 
-FROM ubuntu
+FROM ubuntu:12.04
 
 RUN echo 'deb http://jp.archive.ubuntu.com/ubuntu precise universe' >> /etc/apt/sources.list
 RUN apt-get update
