@@ -1,13 +1,18 @@
-## Convenient sl environment for Docker
+# sl on Docker
 
 All you need is sl. Aren't you?
 
-## Build your self
+## Build
 
-```sh
+```shell-session
 $ docker build -t sixeight/sl .
+```
+
+## Run
+
+```shell-session
+$ docker run --rm -t sixeight/sl
 ```
 
 ## Author
 Nishimura Tomohiro (a.k.a @Sixeight)
-
