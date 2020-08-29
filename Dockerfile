@@ -1,18 +1,9 @@
-# Convenient sl environment
-#
-# VERSION               0.1
-MAINTAINER Nishimura Tomohiro
+FROM alpine:3.12.0
+ENV PATH /usr/games:$PATH
 
-FROM ubuntu:12.04
-
-RUN echo 'deb http://jp.archive.ubuntu.com/ubuntu precise universe' >> /etc/apt/sources.list
-RUN apt-get update
-RUN apt-get install -y sl
-RUN apt-get clean
+RUN apk update && \
+    apk add --no-cache sl
 
 RUN adduser --disabled-password conductor
-
-ENV PATH /usr/games:$PATH
 USER conductor
-CMD sl
-
+ENTRYPOINT [ "sl" ]
