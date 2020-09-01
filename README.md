@@ -1,4 +1,5 @@
 # sl on Docker
+[![](https://images.microbadger.com/badges/version/sixeight/sl.svg)](https://microbadger.com/images/sixeight/sl "Get your own version badge on microbadger.com")
 
 All you need is sl. Aren't you?
 
